@@ -1,0 +1,52 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url(./styles//manchas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+    
+ 
+}
+
+input{
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+    color: blueviolet;
+    font-size: 1.2rem;
+    width: 60%;
+    
+    
+}
+
+.card-grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+  align-content: center; 
+  border: 1px solid rgb(247, 50, 197);
+  border-radius: 6px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  overflow: hidden;
+}
+
+.card p {
+    padding: 5px;
+    text-align: center;
+}
+
+.card img{
+    max-height: 170px;
+}
